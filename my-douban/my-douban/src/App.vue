@@ -17,7 +17,6 @@ export default {
 
 /* 禁用iPhone中Safari的字号自动调整 */
 html {
-  font-size: 50px;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	/* 解决IOS默认滑动很卡的情况 */

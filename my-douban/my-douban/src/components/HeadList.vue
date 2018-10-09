@@ -16,8 +16,8 @@ export default {
 <style lang="scss" scoped>
     .headlist{
         width: 100%;
-        padding: 4%;
-        padding-top: 1.5rem;
+        padding: 5%;
+        padding-top: 3rem;
 
         box-sizing: border-box;
         ul{
@@ -27,12 +27,12 @@ export default {
             li{
                 float: left;
                 width: 49%;
-                margin-bottom: 0.1rem;
-                height: 1rem;
-                line-height: 1rem;
+                margin-bottom: 0.3rem;
+                height: 2rem;
+                line-height: 2rem;
                 text-align: center;
                 background-color: #f6f6f6;
-                font-size: 0.32rem;
+                font-size: 0.5rem;
             }
         }
     }
