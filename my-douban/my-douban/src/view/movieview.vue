@@ -7,15 +7,17 @@
             <scroll title="发现好电影" type="onlyString" :items="movieTags"></scroll>
         </div>
         <type></type>
+        <download></download>
     </div>
 </template>
 <script>
 import scroll from '../components/movie_scroll'
 import type from '../components/type'
+import download from '../components/downLoad'
 import { mapState } from 'vuex';
 export default {
     name:'movieview',
-    components:{scroll,type},
+    components:{scroll,type,download},
     created(){
         this.getMovies()
     },

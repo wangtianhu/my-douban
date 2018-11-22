@@ -6,6 +6,7 @@ import bookview from '@/view/bookview'
 import statioview from '@/view/statioview'
 import groupview from '@/view/groupview'
 import movieview from '@/view/movieview'
+import subject from '@/view/movieSubject'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ export default new Router({
           path:'movieview',
           name:'movieview',
           component:movieview
+        },
+        {
+          path:'movieview/subject',
+          name:'subject',
+          component:subject
         }
       ]
     }

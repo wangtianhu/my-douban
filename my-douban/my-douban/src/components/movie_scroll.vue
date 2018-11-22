@@ -10,15 +10,18 @@
         <div class="content">
             <div class="content_items">
                 <ul class="hascover" v-if="type==='hasCover'">
-                    <li v-for="(m,index) in items" v-if="index<=6" :key="index">
+                  <router-link to="movieview/subject">
+                      <li v-for="(m,index) in items" v-if="index<=6" :key="index">
                         <img :src="m.images.small" alt="">
                         <p class="item_title" v-html="m.title+'-'+m.year"></p>
                         <rating :rat="m.rating.average">
                         </rating>
                     </li>
+                  </router-link>
+                  
                 </ul>
                 <ul class="onlyString" v-if="type === 'onlyString'">
-                    <li v-for="item in items">
+                    <li v-for="(item,index) in items" :key = "index">
                         <a :href="item.href" v-if="!item.line" :style="{color: item.color}">{{item.title}}</a>
                     </li>
                 </ul>
