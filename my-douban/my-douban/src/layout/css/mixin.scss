@@ -1,0 +1,15 @@
+@mixin bgImg{
+    width: 100px;
+    height: 60px;
+    background: {
+        image:url('http://img.cmvideo.cn:8080/publish/noms/2019/05/23/54056.png');
+        size:100% 100%;
+    }
+}
+@mixin popBg{
+    width: 100px;
+    height: 100px;
+    background: {
+        color: #F25589
+    }
+}
