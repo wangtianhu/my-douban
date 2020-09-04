@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.13.1",
     "sass-loader": "^7.0.3",
     "superagent": "^3.8.3",
     "superagent-jsonp": "^0.2.1",
